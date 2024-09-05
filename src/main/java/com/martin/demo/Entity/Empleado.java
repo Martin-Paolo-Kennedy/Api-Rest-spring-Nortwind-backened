@@ -21,6 +21,5 @@ public class Empleado {
     private String photo;
     private String notes;
 
-    @OneToMany(mappedBy = "employee")
-    private List<Pedido> orders;
+
 }
